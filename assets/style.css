@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(70, 95, 105)
+  }
+
+header {
+    font-family: bradley hand, cursive;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.navigation ul a {
+    text-decoration: none;
+}
+
+.main-hero {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px;
+}
+
+.main-hero div {
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    padding: 40px;
+    margin: 50px;
+
+}
+
+img {
+    border-radius: 25px;
+    height: 600px;
+    width: 450px;
+}
+
+.one ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.one nav ul li {
+    font-size: 40px;
+    list-style: none;
+}
+
+.two {
+    margin: 20px;
+    font-size: 35px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image div {
+    align-items: center;
+}
+
+
+
